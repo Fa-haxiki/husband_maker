@@ -20,11 +20,11 @@ function generateSkin() {
 }
 
 function generateBody() {
-    var height = normalDistribution(165, 5)
+    var height = normalDistribution(175, 8)
     height = Math.round(height);
     var text1 = document.getElementById("height");
     text1.innerHTML=height;
-    var bmi = normalDistribution(20, 1);
+    var bmi = normalDistribution(22, 2);
     var weight = Math.round(bmi*(height/100)*(height/100));
     var text2 = document.getElementById("weight");
     text2.innerHTML = weight;
