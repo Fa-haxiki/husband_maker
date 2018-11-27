@@ -30,7 +30,7 @@ function generateBody() {
     text2.innerHTML = weight;
 }
 function generateAge() {
-    var gH = Math.round(normalDistribution(20, 2));
+    var gH = Math.round(normalDistribution(20, 4));
     var text1 = document.getElementById("age");
     text1.innerHTML = gH;    
 }
